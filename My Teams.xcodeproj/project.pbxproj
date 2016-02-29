@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7951AE1C8118030096FF93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951AD1C8118030096FF93 /* AppDelegate.swift */; };
+		0F7951B01C8118030096FF93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951AF1C8118030096FF93 /* ViewController.swift */; };
+		0F7951B31C8118030096FF93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951B11C8118030096FF93 /* Main.storyboard */; };
+		0F7951B51C8118030096FF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951B41C8118030096FF93 /* Assets.xcassets */; };
+		0F7951B81C8118030096FF93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951B61C8118030096FF93 /* LaunchScreen.storyboard */; };
+		0F7951C31C8118030096FF93 /* My_TeamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951C21C8118030096FF93 /* My_TeamsTests.swift */; };
+		0F7951CE1C8118040096FF93 /* My_TeamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951CD1C8118040096FF93 /* My_TeamsUITests.swift */; };
+		0F7951DC1C811B980096FF93 /* CubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951DB1C811B980096FF93 /* CubsViewController.swift */; };
+		0F7951DE1C811BC60096FF93 /* BlackhawksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951DD1C811BC60096FF93 /* BlackhawksViewController.swift */; };
+		0F7951E01C811BF10096FF93 /* BullsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951DF1C811BF10096FF93 /* BullsViewController.swift */; };
+		0F7951E21C82222A0096FF93 /* bullsPlayers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951E11C82222A0096FF93 /* bullsPlayers.plist */; };
+		0F7951E41C82C1070096FF93 /* cubsPlayers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951E31C82C1070096FF93 /* cubsPlayers.plist */; };
+		0F7951E61C83B6E10096FF93 /* blackhawksPlayers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951E51C83B6E10096FF93 /* blackhawksPlayers.plist */; };
+		0F7951EA1C83F5A20096FF93 /* BearsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7951E91C83F5A20096FF93 /* BearsViewController.swift */; };
+		0F7951EC1C84056B0096FF93 /* bearsPlayers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F7951EB1C84056B0096FF93 /* bearsPlayers.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F7951BF1C8118030096FF93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7951A21C8118030096FF93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7951A91C8118030096FF93;
+			remoteInfo = "My Teams";
+		};
+		0F7951CA1C8118040096FF93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7951A21C8118030096FF93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7951A91C8118030096FF93;
+			remoteInfo = "My Teams";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7951AA1C8118030096FF93 /* My Teams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Teams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7951AD1C8118030096FF93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F7951AF1C8118030096FF93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F7951B21C8118030096FF93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F7951B41C8118030096FF93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F7951B71C8118030096FF93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F7951B91C8118030096FF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7951BE1C8118030096FF93 /* My TeamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My TeamsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7951C21C8118030096FF93 /* My_TeamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_TeamsTests.swift; sourceTree = "<group>"; };
+		0F7951C41C8118030096FF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7951C91C8118040096FF93 /* My TeamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My TeamsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7951CD1C8118040096FF93 /* My_TeamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_TeamsUITests.swift; sourceTree = "<group>"; };
+		0F7951CF1C8118040096FF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7951DB1C811B980096FF93 /* CubsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubsViewController.swift; sourceTree = "<group>"; };
+		0F7951DD1C811BC60096FF93 /* BlackhawksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackhawksViewController.swift; sourceTree = "<group>"; };
+		0F7951DF1C811BF10096FF93 /* BullsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BullsViewController.swift; sourceTree = "<group>"; };
+		0F7951E11C82222A0096FF93 /* bullsPlayers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bullsPlayers.plist; sourceTree = "<group>"; };
+		0F7951E31C82C1070096FF93 /* cubsPlayers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cubsPlayers.plist; sourceTree = "<group>"; };
+		0F7951E51C83B6E10096FF93 /* blackhawksPlayers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blackhawksPlayers.plist; sourceTree = "<group>"; };
+		0F7951E91C83F5A20096FF93 /* BearsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BearsViewController.swift; sourceTree = "<group>"; };
+		0F7951EB1C84056B0096FF93 /* bearsPlayers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bearsPlayers.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7951A71C8118030096FF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7951BB1C8118030096FF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7951C61C8118040096FF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7951A11C8118030096FF93 = {
+			isa = PBXGroup;
+			children = (
+				0F7951AC1C8118030096FF93 /* My Teams */,
+				0F7951C11C8118030096FF93 /* My TeamsTests */,
+				0F7951CC1C8118040096FF93 /* My TeamsUITests */,
+				0F7951AB1C8118030096FF93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7951AB1C8118030096FF93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7951AA1C8118030096FF93 /* My Teams.app */,
+				0F7951BE1C8118030096FF93 /* My TeamsTests.xctest */,
+				0F7951C91C8118040096FF93 /* My TeamsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7951AC1C8118030096FF93 /* My Teams */ = {
+			isa = PBXGroup;
+			children = (
+				0F7951AD1C8118030096FF93 /* AppDelegate.swift */,
+				0F7951AF1C8118030096FF93 /* ViewController.swift */,
+				0F7951B11C8118030096FF93 /* Main.storyboard */,
+				0F7951B41C8118030096FF93 /* Assets.xcassets */,
+				0F7951B61C8118030096FF93 /* LaunchScreen.storyboard */,
+				0F7951B91C8118030096FF93 /* Info.plist */,
+				0F7951DB1C811B980096FF93 /* CubsViewController.swift */,
+				0F7951DD1C811BC60096FF93 /* BlackhawksViewController.swift */,
+				0F7951DF1C811BF10096FF93 /* BullsViewController.swift */,
+				0F7951E91C83F5A20096FF93 /* BearsViewController.swift */,
+				0F7951E11C82222A0096FF93 /* bullsPlayers.plist */,
+				0F7951E31C82C1070096FF93 /* cubsPlayers.plist */,
+				0F7951E51C83B6E10096FF93 /* blackhawksPlayers.plist */,
+				0F7951EB1C84056B0096FF93 /* bearsPlayers.plist */,
+			);
+			path = "My Teams";
+			sourceTree = "<group>";
+		};
+		0F7951C11C8118030096FF93 /* My TeamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7951C21C8118030096FF93 /* My_TeamsTests.swift */,
+				0F7951C41C8118030096FF93 /* Info.plist */,
+			);
+			path = "My TeamsTests";
+			sourceTree = "<group>";
+		};
+		0F7951CC1C8118040096FF93 /* My TeamsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7951CD1C8118040096FF93 /* My_TeamsUITests.swift */,
+				0F7951CF1C8118040096FF93 /* Info.plist */,
+			);
+			path = "My TeamsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7951A91C8118030096FF93 /* My Teams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7951D21C8118040096FF93 /* Build configuration list for PBXNativeTarget "My Teams" */;
+			buildPhases = (
+				0F7951A61C8118030096FF93 /* Sources */,
+				0F7951A71C8118030096FF93 /* Frameworks */,
+				0F7951A81C8118030096FF93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Teams";
+			productName = "My Teams";
+			productReference = 0F7951AA1C8118030096FF93 /* My Teams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F7951BD1C8118030096FF93 /* My TeamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7951D51C8118040096FF93 /* Build configuration list for PBXNativeTarget "My TeamsTests" */;
+			buildPhases = (
+				0F7951BA1C8118030096FF93 /* Sources */,
+				0F7951BB1C8118030096FF93 /* Frameworks */,
+				0F7951BC1C8118030096FF93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7951C01C8118030096FF93 /* PBXTargetDependency */,
+			);
+			name = "My TeamsTests";
+			productName = "My TeamsTests";
+			productReference = 0F7951BE1C8118030096FF93 /* My TeamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F7951C81C8118040096FF93 /* My TeamsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7951D81C8118040096FF93 /* Build configuration list for PBXNativeTarget "My TeamsUITests" */;
+			buildPhases = (
+				0F7951C51C8118040096FF93 /* Sources */,
+				0F7951C61C8118040096FF93 /* Frameworks */,
+				0F7951C71C8118040096FF93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7951CB1C8118040096FF93 /* PBXTargetDependency */,
+			);
+			name = "My TeamsUITests";
+			productName = "My TeamsUITests";
+			productReference = 0F7951C91C8118040096FF93 /* My TeamsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7951A21C8118030096FF93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Weber Solutions";
+				TargetAttributes = {
+					0F7951A91C8118030096FF93 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2RY89Q7RCD;
+					};
+					0F7951BD1C8118030096FF93 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2RY89Q7RCD;
+						TestTargetID = 0F7951A91C8118030096FF93;
+					};
+					0F7951C81C8118040096FF93 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2RY89Q7RCD;
+						TestTargetID = 0F7951A91C8118030096FF93;
+					};
+				};
+			};
+			buildConfigurationList = 0F7951A51C8118030096FF93 /* Build configuration list for PBXProject "My Teams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F7951A11C8118030096FF93;
+			productRefGroup = 0F7951AB1C8118030096FF93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7951A91C8118030096FF93 /* My Teams */,
+				0F7951BD1C8118030096FF93 /* My TeamsTests */,
+				0F7951C81C8118040096FF93 /* My TeamsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7951A81C8118030096FF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7951E61C83B6E10096FF93 /* blackhawksPlayers.plist in Resources */,
+				0F7951E41C82C1070096FF93 /* cubsPlayers.plist in Resources */,
+				0F7951B81C8118030096FF93 /* LaunchScreen.storyboard in Resources */,
+				0F7951B51C8118030096FF93 /* Assets.xcassets in Resources */,
+				0F7951E21C82222A0096FF93 /* bullsPlayers.plist in Resources */,
+				0F7951B31C8118030096FF93 /* Main.storyboard in Resources */,
+				0F7951EC1C84056B0096FF93 /* bearsPlayers.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7951BC1C8118030096FF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7951C71C8118040096FF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7951A61C8118030096FF93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7951B01C8118030096FF93 /* ViewController.swift in Sources */,
+				0F7951DC1C811B980096FF93 /* CubsViewController.swift in Sources */,
+				0F7951AE1C8118030096FF93 /* AppDelegate.swift in Sources */,
+				0F7951E01C811BF10096FF93 /* BullsViewController.swift in Sources */,
+				0F7951EA1C83F5A20096FF93 /* BearsViewController.swift in Sources */,
+				0F7951DE1C811BC60096FF93 /* BlackhawksViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7951BA1C8118030096FF93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7951C31C8118030096FF93 /* My_TeamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7951C51C8118040096FF93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7951CE1C8118040096FF93 /* My_TeamsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F7951C01C8118030096FF93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7951A91C8118030096FF93 /* My Teams */;
+			targetProxy = 0F7951BF1C8118030096FF93 /* PBXContainerItemProxy */;
+		};
+		0F7951CB1C8118040096FF93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7951A91C8118030096FF93 /* My Teams */;
+			targetProxy = 0F7951CA1C8118040096FF93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F7951B11C8118030096FF93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7951B21C8118030096FF93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F7951B61C8118030096FF93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7951B71C8118030096FF93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F7951D01C8118040096FF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F7951D11C8118040096FF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7951D31C8118040096FF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Teams/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeberSolutions.My-Teams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F7951D41C8118040096FF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Teams/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeberSolutions.My-Teams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F7951D61C8118040096FF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My TeamsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeberSolutions.My-TeamsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Teams.app/My Teams";
+			};
+			name = Debug;
+		};
+		0F7951D71C8118040096FF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My TeamsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeberSolutions.My-TeamsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Teams.app/My Teams";
+			};
+			name = Release;
+		};
+		0F7951D91C8118040096FF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My TeamsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeberSolutions.My-TeamsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Teams";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0F7951DA1C8118040096FF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My TeamsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeberSolutions.My-TeamsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Teams";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7951A51C8118030096FF93 /* Build configuration list for PBXProject "My Teams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7951D01C8118040096FF93 /* Debug */,
+				0F7951D11C8118040096FF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7951D21C8118040096FF93 /* Build configuration list for PBXNativeTarget "My Teams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7951D31C8118040096FF93 /* Debug */,
+				0F7951D41C8118040096FF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F7951D51C8118040096FF93 /* Build configuration list for PBXNativeTarget "My TeamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7951D61C8118040096FF93 /* Debug */,
+				0F7951D71C8118040096FF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F7951D81C8118040096FF93 /* Build configuration list for PBXNativeTarget "My TeamsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7951D91C8118040096FF93 /* Debug */,
+				0F7951DA1C8118040096FF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F7951A21C8118030096FF93 /* Project object */;
+}
