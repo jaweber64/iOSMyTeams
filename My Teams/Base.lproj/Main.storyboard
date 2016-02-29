@@ -317,6 +317,14 @@
                                 <rect key="frame" x="20" y="296" width="560" height="245"/>
                                 <color key="backgroundColor" red="0.023529411764705882" green="0.066666666666666666" blue="0.20000000000000001" alpha="0.90379849137931034" colorSpace="calibratedRGB"/>
                             </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aLN-04-Sdy">
+                                <rect key="frame" x="140" y="30" width="320" height="216"/>
+                                <color key="backgroundColor" white="1" alpha="0.9501885775862069" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="CNX-CR-Q1K" id="waN-Gx-rVG"/>
+                                    <outlet property="delegate" destination="CNX-CR-Q1K" id="UHR-mX-CsO"/>
+                                </connections>
+                            </pickerView>
                             <button opaque="NO" tag="31" contentMode="scaleToFill" verticalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpz-5o-84a">
                                 <rect key="frame" x="140" y="246" width="120" height="50"/>
                                 <constraints>
@@ -355,14 +363,6 @@
                                 <rect key="frame" x="20" y="296" width="560" height="245"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aLN-04-Sdy">
-                                <rect key="frame" x="140" y="30" width="320" height="216"/>
-                                <color key="backgroundColor" white="1" alpha="0.9501885775862069" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="CNX-CR-Q1K" id="waN-Gx-rVG"/>
-                                    <outlet property="delegate" destination="CNX-CR-Q1K" id="UHR-mX-CsO"/>
-                                </connections>
-                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
